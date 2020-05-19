@@ -1,0 +1,255 @@
+html, body {
+ font-family: 'Righteous', cursive;
+    font-size: 16px;
+    line-height: 0.1;
+}
+img{
+   display: inline-block;
+    
+}
+/*GRID________________________*/
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+
+.row:after {
+  clear: both;
+    content: "";
+    
+    
+}
+
+.col-4{
+    width: 360px;
+    margin-right: 10px;
+    float: left;
+    
+    
+    
+    
+}
+
+.col-4:last-child{
+    width: 360px;
+    margin-right: 10px;
+    
+}
+
+/*HEADER________________________*/
+
+.header {
+   background-image: url("../img/portfolio/table-1284507.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    
+    
+       
+}
+
+.header__title{
+    font-size: 56px;
+    line-height: 62px;
+    margin-top: -50px;
+    
+}
+
+.header__slogan{
+    font-size: 18px;
+    line-height: 20px;
+    opacity: 0.9;
+    color: ghostwhite;
+    
+}
+
+.header__arrow{
+    font-size: 150px;
+   color: red;
+    opacity: 0.8;
+    
+     width: 60px;
+    height: 50px;
+    
+    
+    bottom: 50px;
+    left: 50%;
+    
+}
+
+/*PORTFOLIO________________________*/
+.portfolio{
+    padding-top: -10px;
+    padding-bottom: -10px;
+    
+}
+
+
+
+.title{
+    font-size: 55px;
+    margin-bottom: 1px;
+   
+    text-align: center;
+    
+}
+
+.portfolio-item__img{
+    margin-bottom: 1px;
+    
+}
+
+.portfolio-item__title{
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+      
+       
+}
+
+
+.portfolio-item__text{
+    
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.portfolio-item__title a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    
+}
+
+.portfolio-item__title a:hover{
+    color: red;
+    
+}
+
+
+/*FOOTER________________________*/
+
+.footer{
+    background-color: black;
+   color: white;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: inline-block;
+   text-align: center;
+     line-height: 1.5;
+    
+  margin-left: 5px;
+    width: 1325px;
+    
+    
+    
+    
+
+    
+}
+
+.footer p {
+   margin-top: 1px;
+    margin-bottom: 15px;
+     
+}
+
+p.footer__name{
+    font-size: 28px;
+    margin-bottom: 10px;
+   line-height: 1.5;
+}
+
+p.footer__social{
+    color: white;
+    font-size: 28px
+    
+}
+
+p.footer__social-icons{
+    color: white;
+    font-size: 42px;
+    
+}
+
+p.footer__social-icons a {
+    text-decoration: none;
+    margin-right: 7px;
+    color: white;
+    
+}
+
+p.footer__social-icons a:last-child {
+    margin-right: 0px;
+    
+    
+}
+
+p.footer__social-icons a:hover {
+    
+    color: red;
+    
+}
+
+.button{
+   font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    display: inline-block;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 13px;
+     color: white;
+    
+    
+}
+
+.button:hover {
+    background-color: red;
+    
+}
+
+.title__artist{
+    font-size: 55px;
+    margin-bottom: 9px;
+  
+      font-weight: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    display: inline-block;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 23px;
+    margin-bottom: 13px;
+     color: white;
+}
+
